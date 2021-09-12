@@ -1,0 +1,6 @@
+@use './styles/vars' as v;
+
+body {
+  font-family: v.$roboto;
+  background-color: v.$bg-dark;
+}
