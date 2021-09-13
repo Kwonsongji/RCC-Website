@@ -1,14 +1,16 @@
 import React from 'react';
 import './style.scss';
-
+import { NavLink } from 'react-router-dom';
+import { NavDropDown } from 'react-bootstrap';
 const NavBarLeft = () => {
   return (
     <div className="navbar__main">
 			<nav class="main-nav">
 				<ul class="main-nav__list">
-					<li ><a href="home.html" className="main-nav__list__title">Home</a></li>
+					<li >< NavLink to="home.html" className="main-nav__list__title">Home</NavLink></li>
 					<li class="">
-						<a href="#">Teams</a>
+						<NavDropDown title="Teams" id="basic-nav-dropdown">
+						<NavLink to="#">Teams</NavLink>
 						<ul class="main-nav__sub">
 							<li class="">
 								<a href="#">Team Selections</a>

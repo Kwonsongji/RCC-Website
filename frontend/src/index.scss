@@ -4,3 +4,26 @@ body {
   font-family: v.$roboto;
   background-color: v.$bg-dark;
 }
+
+ul > li {
+  list-style: none;
+}
+header {
+  color: white;
+  ;
+}
+
+ footer {
+  margin: auto;
+  display: inline;
+  flex-direction: row;
+  justify-content: space-between;
+}
+i {
+  width: 20px;
+  height: 100px;
+}
+
+.link-subtitle {
+
+}

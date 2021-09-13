@@ -1,0 +1,10 @@
+.footer__main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  &__link {
+    color: white;
+    list-style: none;
+  }
+}
+
