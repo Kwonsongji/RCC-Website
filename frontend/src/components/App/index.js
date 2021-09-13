@@ -1,12 +1,10 @@
 //import logo from './logo.svg';
 import React from 'react';
-import './style.css';
-
-
+import './style.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Components :
-import NavBar from '../Navbar';
+import Header from '../Header/Header.js';
 import Footer from '../Footer';
 //import Logo from '../../../public/logo_rcc.png';
 
@@ -14,10 +12,10 @@ const App = () => {
   return (
  <div className="App">
       <Router>
-        <NavBar/>
+        <Header/>
         <main>
           <Switch>
-            <Route exact path="/" component={NavBar}></Route>
+       
             <Route exact path="/" component={Footer}></Route>
           </Switch>
         </main>
